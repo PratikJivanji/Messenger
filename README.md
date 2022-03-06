@@ -33,5 +33,5 @@ npm start
 ```
 
 ## Screenshots
-![Sign in page](/images/signIn.png)
+![Sign in page](/images/signIn.PNG)
 ![Messaging page](/images/messaging.PNG)
