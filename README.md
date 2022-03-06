@@ -2,7 +2,7 @@
 
 An instant messaging web applicaton. 
 
-Live Demo:
+Live Demo: https://messengerpj.netlify.app/
 
 ## Tech/frameworks used
 - React
@@ -14,7 +14,7 @@ Live Demo:
 ## Getting Started
 Create a firebase project at [firebase](https://firebase.google.com/), and create a web app. Then add google and facebook sign in methods.
 
-Add your firbase webapp and chatengine info to an `.env` file
+Add your firbase webapp and [chatengine](https://chatengine.io/) info to an `.env` file
 ```
 REACT_APP_APIKEY=
 REACT_APP_AUTHDOMAIN=
@@ -33,3 +33,5 @@ npm start
 ```
 
 ## Screenshots
+![Sign in page](/images/signIn.png)
+![Messaging page](/images/messaging.PNG)
