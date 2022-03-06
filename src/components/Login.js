@@ -1,6 +1,6 @@
 import React from 'react';
 import { GoogleOutlined, FacebookOutlined } from "@ant-design/icons";
-import "firebase/app";
+import firebase from 'firebase/app';
 import { auth } from "../firebase"
 
 const Login = () => {
@@ -20,9 +20,9 @@ const Login = () => {
 
                 <div
                     className="login-button facebook"
+                    onClick={() => auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider())}
                 >
                     <FacebookOutlined /> Sign in with Facebook
-                    onClick={() => auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider())}
                 </div>
             </div>
         </div>
