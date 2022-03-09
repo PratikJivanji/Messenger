@@ -6,7 +6,6 @@ Live Demo: https://messengerpj.netlify.app/
 
 ## Tech/frameworks used
 - React
-- CSS
 - Javasript
 - Firebase
 - Chatengine
